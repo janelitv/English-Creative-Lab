@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffcf4f">
+  <title>English Creative Lab | Shapes, Antonyms, Living Room, Park, Bedroom, Town and Materials</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23ffcf4f'/%3E%3Ccircle cx='23' cy='24' r='10' fill='%23ff5fa3'/%3E%3Cpath d='M43 16l12 22H31z' fill='%2300a9f4'/%3E%3Crect x='15' y='39' width='22' height='14' rx='4' fill='%23202343'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-lesson-mode="shapes" data-sound="on" data-translation="on">
+  <a class="skip-link" href="#games">К играм</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Наверх">
+      <span class="brand-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+      <span>
+        <strong>English Creative Lab</strong>
+        <small>Playful lessons</small>
+      </span>
+    </a>
+
+    <div class="topbar-controls" aria-label="Настройки урока">
+      <label class="lesson-choice" for="lesson-select">
+        <span>Выбрать урок</span>
+        <select id="lesson-select" data-lesson-select>
+          <option value="shapes">Shapes</option>
+          <option value="antonyms">Antonyms</option>
+          <option value="living-room">Living room</option>
+          <option value="park">Park</option>
+          <option value="bedroom">Bedroom</option>
+          <option value="town">Town</option>
+          <option value="materials">Materials</option>
+        </select>
+      </label>
+
+      <div class="utility-controls" aria-label="Звук и перевод">
+        <button class="control-button" type="button" data-sound-toggle aria-pressed="true" aria-label="Озвучка включена">
+          <span class="control-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M4 10v4h4l5 4V6l-5 4H4z"></path>
+              <path d="M16 9c1.2 1.4 1.2 4.6 0 6"></path>
+              <path d="M18.5 6.5c2.6 3 2.6 8 0 11"></path>
+            </svg>
+          </span>
+          <span data-control-label>Озвучка включена</span>
+        </button>
+        <button class="control-button" type="button" data-translation-toggle aria-pressed="true" aria-label="Перевод включён">
+          <span class="control-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3V4z"></path>
+              <path d="M8 4v16"></path>
+              <path d="M11 8h5"></path>
+              <path d="M11 12h4"></path>
+              <path d="M11 16h3"></path>
+            </svg>
+          </span>
+          <span data-control-label>Перевод включён</span>
+        </button>
+      </div>
+
+      <div class="progress-pill heart-progress" aria-live="polite" aria-label="Сердечки за правильные ответы">
+        <span class="heart-badge" aria-hidden="true">♥</span>
+        <span class="progress-copy">
+          <span>Hearts</span>
+          <strong><b data-progress-current>0</b></strong>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shapes-hero" data-lesson-panel="shapes" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Shapes for a curious girl</p>
+        <h1 id="hero-title">Shape<br><span>Hunt Lab</span></h1>
+        <p class="hero-ru">Двуязычный игровой урок по теме shapes: слушаем, смотрим и быстро находим нужную форму.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#games">Начать игру</a>
+          <a class="button button-light" href="#cards">Карточки</a>
+        </div>
+      </div>
+      <figure class="poster-card">
+        <img decoding="async" fetchpriority="high" src="assets/images/poster.webp" alt="Постер со всеми формами: rectangle, triangle, square, circle, oval, star, dot, cross, heart, hexagon, octagon, rhombus">
+        <figcaption>All 12 shapes in one picture</figcaption>
+      </figure>
+      <div class="shape-rain" aria-hidden="true">
+        <span class="rain-circle"></span>
+        <span class="rain-square"></span>
+        <span class="rain-triangle"></span>
+        <span class="rain-star">★</span>
+      </div>
+      <div class="decor-layer hero-decor" aria-hidden="true">
+        <img loading="lazy" decoding="async" class="decor-shape decor-hero-triangle" src="assets/images/cutouts/triangle.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-hero-heart" src="assets/images/cutouts/heart.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-hero-star" src="assets/images/cutouts/star.webp" alt="">
+      </div>
+    </section>
+
+    <section class="practice-section" id="practice" data-lesson-panel="shapes" aria-labelledby="practice-title">
+      <div class="decor-layer practice-decor" aria-hidden="true">
+        <img loading="lazy" decoding="async" class="decor-shape decor-practice-oval" src="assets/images/cutouts/oval.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-practice-dot" src="assets/images/cutouts/dot.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-practice-rhombus" src="assets/images/cutouts/rhombus.webp" alt="">
+      </div>
+      <div class="section-heading">
+        <p class="eyebrow">Warm up before games</p>
+        <h2 id="practice-title">Shape Hunt Warm-up</h2>
+        <p>Короткая разминка перед играми: смотрим на картинку, слушаем слово и сразу ищем форму.</p>
+      </div>
+
+      <div class="practice-grid">
+        <article class="practice-panel practice-panel-yellow">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/circle.webp" alt="Розовый круг с улыбкой">
+          <div>
+            <span class="scene-number">01</span>
+            <h3>Look</h3>
+            <p class="english">Look at the picture. Say: <button type="button" class="word-sound" data-speak="circle">circle ♪</button>, <button type="button" class="word-sound" data-speak="square">square ♪</button>, <button type="button" class="word-sound" data-speak="star">star ♪</button>.</p>
+            <p class="russian">Посмотри на картинку и назови форму по-английски.</p>
+          </div>
+        </article>
+
+        <article class="practice-panel practice-panel-blue">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/triangle.webp" alt="Синий треугольник с улыбкой">
+          <div>
+            <span class="scene-number">02</span>
+            <h3>Listen</h3>
+            <p class="english">Tap and listen: <button type="button" class="word-sound" data-speak="triangle">triangle ♪</button>, <button type="button" class="word-sound" data-speak="rectangle">rectangle ♪</button>, <button type="button" class="word-sound" data-speak="oval">oval ♪</button>.</p>
+            <p class="russian">Нажми на слово, послушай и повтори вслух.</p>
+          </div>
+        </article>
+
+        <article class="practice-panel practice-panel-pink">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/heart.webp" alt="Красное сердце с улыбкой">
+          <div>
+            <span class="scene-number">03</span>
+            <h3>Point</h3>
+            <p class="english">Point to a <button type="button" class="word-sound" data-speak="heart">heart ♪</button>, a <button type="button" class="word-sound" data-speak="rhombus">rhombus ♪</button>, and a tiny <button type="button" class="word-sound" data-speak="dot">dot ♪</button>.</p>
+            <p class="russian">Покажи форму пальчиком на экране или на карточке.</p>
+          </div>
+        </article>
+
+        <article class="practice-panel practice-panel-green">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/cross.webp" alt="Красный крестик с улыбкой">
+          <div>
+            <span class="scene-number">04</span>
+            <h3>Find</h3>
+            <p class="english">Ready? Find a <button type="button" class="word-sound" data-speak="cross">cross ♪</button>, a <button type="button" class="word-sound" data-speak="hexagon">hexagon ♪</button>, and an <button type="button" class="word-sound" data-speak="octagon">octagon ♪</button>.</p>
+            <p class="russian">Готова? Переходи к играм и ищи правильную картинку.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="friendship-section" id="friendship" data-lesson-panel="shapes" aria-labelledby="friendship-title">
+      <div class="decor-layer friendship-decor" aria-hidden="true">
+        <img loading="lazy" decoding="async" class="decor-shape decor-friendship-circle" src="assets/images/cutouts/circle.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-friendship-rectangle" src="assets/images/cutouts/rectangle.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-friendship-cross" src="assets/images/cutouts/cross.webp" alt="">
+      </div>
+      <div class="section-heading">
+        <p class="eyebrow">Story time</p>
+        <h2 id="friendship-title">Дружба фигур</h2>
+        <p>Небольшой русский рассказ с английскими словами по теме shapes. Нажимай на выделенные слова, чтобы послушать произношение.</p>
+      </div>
+
+      <div class="friendship-grid">
+        <article class="friendship-panel friendship-panel-wide">
+          <div class="friendship-images" aria-hidden="true">
+            <img loading="lazy" decoding="async" src="assets/images/cutouts/circle.webp" alt="">
+            <img loading="lazy" decoding="async" src="assets/images/cutouts/square.webp" alt="">
+            <img loading="lazy" decoding="async" src="assets/images/cutouts/triangle.webp" alt="">
+          </div>
+          <div>
+            <span class="scene-number">01</span>
+            <h3>Новый город</h3>
+            <p>В маленьком городе Shapes жили разные фигуры. Весёлый <button type="button" class="word-sound" data-speak="circle">circle ♪</button> любил катиться по дорожке, спокойный <button type="button" class="word-sound" data-speak="square">square ♪</button> умел крепко стоять на месте, а смелый <button type="button" class="word-sound" data-speak="triangle">triangle ♪</button> всегда придумывал новые идеи.</p>
+          </div>
+        </article>
+
+        <article class="friendship-panel friendship-panel-blue">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/rectangle.webp" alt="Прямоугольник">
+          <div>
+            <span class="scene-number">02</span>
+            <h3>Мост для друга</h3>
+            <p>Однажды <button type="button" class="word-sound" data-speak="circle">circle ♪</button> захотел перейти через ручей, но боялся упасть. Длинный <button type="button" class="word-sound" data-speak="rectangle">rectangle ♪</button> лёг как мостик и сказал: «Проходи, друг, я помогу!»</p>
+          </div>
+        </article>
+
+        <article class="friendship-panel friendship-panel-pink">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/star.webp" alt="Звезда">
+          <div>
+            <span class="scene-number">03</span>
+            <h3>Светлая идея</h3>
+            <p>Когда стало темно, яркая <button type="button" class="word-sound" data-speak="star">star ♪</button> засияла над дорожкой. Рядом появился добрый <button type="button" class="word-sound" data-speak="heart">heart ♪</button> и напомнил: «Когда мы вместе, нам не страшно».</p>
+          </div>
+        </article>
+
+        <article class="friendship-panel friendship-panel-green">
+          <img loading="lazy" decoding="async" src="assets/images/cutouts/hexagon.webp" alt="Шестиугольник">
+          <div>
+            <span class="scene-number">04</span>
+            <h3>Команда shapes</h3>
+            <p>Потом к друзьям пришли <button type="button" class="word-sound" data-speak="oval">oval ♪</button>, <button type="button" class="word-sound" data-speak="rhombus">rhombus ♪</button>, <button type="button" class="word-sound" data-speak="hexagon">hexagon ♪</button> и <button type="button" class="word-sound" data-speak="octagon">octagon ♪</button>. Все фигуры поняли: каждая shape разная, но вместе они могут построить целый красивый мир.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cards-section" id="cards" data-lesson-panel="shapes" aria-labelledby="cards-title">
+      <div class="decor-layer cards-decor" aria-hidden="true">
+        <img loading="lazy" decoding="async" class="decor-shape decor-cards-hexagon" src="assets/images/cutouts/hexagon.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-cards-octagon" src="assets/images/cutouts/octagon.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-cards-square" src="assets/images/cutouts/square.webp" alt="">
+      </div>
+      <div class="section-heading section-heading-light">
+        <p class="eyebrow">Touch, flip, listen</p>
+        <h2 id="cards-title">Shape cards</h2>
+        <p>Наведи на карточку, чтобы увидеть слово и перевод. На телефоне нажми на карточку.</p>
+      </div>
+      <div class="simple-cards-grid" id="visible-shape-cards">
+        <button type="button" class="simple-shape-card" data-simple-shape="rectangle" aria-label="rectangle, прямоугольник">
+          <img loading="lazy" decoding="async" src="assets/images/rectangle.webp" alt="прямоугольник">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/rectangle.webp" alt="" aria-hidden="true"><strong>rectangle</strong><small>прямоугольник</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="triangle" aria-label="triangle, треугольник">
+          <img loading="lazy" decoding="async" src="assets/images/triangle.webp" alt="треугольник">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/triangle.webp" alt="" aria-hidden="true"><strong>triangle</strong><small>треугольник</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="square" aria-label="square, квадрат">
+          <img loading="lazy" decoding="async" src="assets/images/square.webp" alt="квадрат">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/square.webp" alt="" aria-hidden="true"><strong>square</strong><small>квадрат</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="circle" aria-label="circle, круг">
+          <img loading="lazy" decoding="async" src="assets/images/circle.webp" alt="круг">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/circle.webp" alt="" aria-hidden="true"><strong>circle</strong><small>круг</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="oval" aria-label="oval, овал">
+          <img loading="lazy" decoding="async" src="assets/images/oval.webp" alt="овал">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/oval.webp" alt="" aria-hidden="true"><strong>oval</strong><small>овал</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="star" aria-label="star, звезда">
+          <img loading="lazy" decoding="async" src="assets/images/star.webp" alt="звезда">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/star.webp" alt="" aria-hidden="true"><strong>star</strong><small>звезда</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="dot" aria-label="dot, точка">
+          <img loading="lazy" decoding="async" src="assets/images/dot.webp" alt="точка">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/dot.webp" alt="" aria-hidden="true"><strong>dot</strong><small>точка</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="cross" aria-label="cross, крестик">
+          <img loading="lazy" decoding="async" src="assets/images/cross.webp" alt="крестик">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/cross.webp" alt="" aria-hidden="true"><strong>cross</strong><small>крестик</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="heart" aria-label="heart, сердце">
+          <img loading="lazy" decoding="async" src="assets/images/heart.webp" alt="сердце">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/heart.webp" alt="" aria-hidden="true"><strong>heart</strong><small>сердце</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="hexagon" aria-label="hexagon, шестиугольник">
+          <img loading="lazy" decoding="async" src="assets/images/hexagon.webp" alt="шестиугольник">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/hexagon.webp" alt="" aria-hidden="true"><strong>hexagon</strong><small>шестиугольник</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="octagon" aria-label="octagon, восьмиугольник">
+          <img loading="lazy" decoding="async" src="assets/images/octagon.webp" alt="восьмиугольник">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/octagon.webp" alt="" aria-hidden="true"><strong>octagon</strong><small>восьмиугольник</small></span>
+        </button>
+        <button type="button" class="simple-shape-card" data-simple-shape="rhombus" aria-label="rhombus, ромб">
+          <img loading="lazy" decoding="async" src="assets/images/rhombus.webp" alt="ромб">
+          <span class="simple-card-label"><img class="simple-card-back-image" loading="lazy" decoding="async" src="assets/images/cutouts/rhombus.webp" alt="" aria-hidden="true"><strong>rhombus</strong><small>ромб</small></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="games-section" id="games" data-lesson-panel="shapes" aria-labelledby="games-title">
+      <div class="decor-layer games-decor" aria-hidden="true">
+        <img loading="lazy" decoding="async" class="decor-shape decor-games-star" src="assets/images/cutouts/star.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-games-heart" src="assets/images/cutouts/heart.webp" alt="">
+        <img loading="lazy" decoding="async" class="decor-shape decor-games-triangle" src="assets/images/cutouts/triangle.webp" alt="">
+      </div>
+      <div class="section-heading">
+        <p class="eyebrow">Play and remember</p>
+        <h2 id="games-title">Shape hunt games</h2>
+        <p>Семь игр в стиле «Найди форму»: выбирай правильную картинку по слову, звуку, переводу, подсказке, первой букве или предложению.</p>
+      </div>
+
+      <div class="find-games-grid" id="find-games"></div>
+
+      <div class="shape-writing-zone" aria-labelledby="shape-writing-title">
+        <div class="section-heading">
+          <p class="eyebrow">Spell the shape words</p>
+          <h2 id="shape-writing-title">Shape writing practice</h2>
+          <p>Собираем и печатаем слова shapes по картинке и русской подсказке. Можно взять подсказку, если буква спряталась.</p>
+        </div>
+
+        <div class="shape-writing-grid">
+          <article class="shape-write-card" id="shape-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке формы.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="shape-write-card" id="shape-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по форме и подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="antonyms-section" id="antonyms" data-lesson-panel="antonyms" aria-labelledby="antonyms-title">
+      <div class="section-heading">
+        <p class="eyebrow">Opposites in a tiny story</p>
+        <h2 id="antonyms-title">Antonyms Club</h2>
+        <p>Новый мини-урок про antonyms: слова-противоположности, маленькая история, карточки с картинками и игры на выбор, слух и написание.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#antonym-games-title">Начать игру</a>
+          <a class="button button-light" href="#antonym-cards-title">Карточки</a>
+        </div>
+      </div>
+
+      <div class="antonym-intro-grid">
+        <figure class="antonym-poster">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/poster.webp" alt="Постер с антонимами: big, small, long, short, tall, low, soft, hard, open, closed, light, dark">
+          <figcaption>12 opposite words</figcaption>
+        </figure>
+        <div class="antonym-word-strip" aria-label="Пары антонимов">
+          <div class="antonym-pair-row">
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="big">big ♪</button><small>большой</small></span>
+            <span class="antonym-pair-arrow" aria-hidden="true">↔</span>
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="small">small ♪</button><small>маленький</small></span>
+          </div>
+          <div class="antonym-pair-row">
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="long">long ♪</button><small>длинный</small></span>
+            <span class="antonym-pair-arrow" aria-hidden="true">↔</span>
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="short">short ♪</button><small>короткий</small></span>
+          </div>
+          <div class="antonym-pair-row">
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="tall">tall ♪</button><small>высокий</small></span>
+            <span class="antonym-pair-arrow" aria-hidden="true">↔</span>
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="low">low ♪</button><small>низкий</small></span>
+          </div>
+          <div class="antonym-pair-row">
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="soft">soft ♪</button><small>мягкий</small></span>
+            <span class="antonym-pair-arrow" aria-hidden="true">↔</span>
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="hard">hard ♪</button><small>твёрдый</small></span>
+          </div>
+          <div class="antonym-pair-row">
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="open">open ♪</button><small>открытый</small></span>
+            <span class="antonym-pair-arrow" aria-hidden="true">↔</span>
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="closed">closed ♪</button><small>закрытый</small></span>
+          </div>
+          <div class="antonym-pair-row">
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="light">light ♪</button><small>светлый</small></span>
+            <span class="antonym-pair-arrow" aria-hidden="true">↔</span>
+            <span class="antonym-pair-word"><button type="button" class="word-sound" data-speak="dark">dark ♪</button><small>тёмный</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="antonym-story-grid" aria-labelledby="antonym-story-title">
+        <article class="antonym-story-card antonym-story-card-wide">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/big-small.webp" alt="Большое красное яблоко и маленькое зелёное яблоко">
+          <div>
+            <span class="scene-number">01</span>
+            <h3 id="antonym-story-title">Сад противоположностей</h3>
+            <p>Утром в добром саду проснулись два яблока. Красное яблоко было <button type="button" class="word-sound" data-speak="big">big ♪</button>, а зелёное яблоко было <button type="button" class="word-sound" data-speak="small">small ♪</button>. Они улыбнулись друг другу и решили искать пары слов.</p>
+          </div>
+        </article>
+
+        <article class="antonym-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/long-short.webp" alt="Длинный красный карандаш и короткий зелёный карандаш">
+          <span class="scene-number">02</span>
+          <h3>Карандашная дорожка</h3>
+          <p>На столе лежали карандаши: один <button type="button" class="word-sound" data-speak="long">long ♪</button>, другой <button type="button" class="word-sound" data-speak="short">short ♪</button>. Они нарисовали дорожку к деревьям.</p>
+        </article>
+
+        <article class="antonym-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/tall-low.webp" alt="Высокое дерево и низкое дерево">
+          <span class="scene-number">03</span>
+          <h3>Деревья рядом</h3>
+          <p>У ворот стояло дерево <button type="button" class="word-sound" data-speak="tall">tall ♪</button>, а рядом росло деревце <button type="button" class="word-sound" data-speak="low">low ♪</button>. Большое дерево тихо укрывало маленькое тенью.</p>
+        </article>
+
+        <article class="antonym-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/soft-hard.webp" alt="Мягкий розовый стульчик и твёрдый деревянный стул">
+          <span class="scene-number">04</span>
+          <h3>Уютный уголок</h3>
+          <p>В комнате нашёлся стульчик <button type="button" class="word-sound" data-speak="soft">soft ♪</button> и столик <button type="button" class="word-sound" data-speak="hard">hard ♪</button>. На мягком месте друзья отдыхали, а на твёрдом столике строили башню.</p>
+        </article>
+
+        <article class="antonym-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/open-closed.webp" alt="Открытый сундук и закрытый сундук">
+          <span class="scene-number">05</span>
+          <h3>Сундук-сюрприз</h3>
+          <p>Один сундук был <button type="button" class="word-sound" data-speak="open">open ♪</button>, а другой был <button type="button" class="word-sound" data-speak="closed">closed ♪</button>. В открытом сундуке лежали добрые слова для игры.</p>
+        </article>
+
+        <article class="antonym-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/antonyms/light-dark.webp" alt="Светлая лампочка и тёмная лампочка">
+          <span class="scene-number">06</span>
+          <h3>Лампочки-друзья</h3>
+          <p>Когда вечер стал <button type="button" class="word-sound" data-speak="dark">dark ♪</button>, лампочка засияла <button type="button" class="word-sound" data-speak="light">light ♪</button>. И все antonyms поняли: противоположности помогают лучше видеть мир.</p>
+        </article>
+      </div>
+
+      <div class="antonym-card-zone" aria-labelledby="antonym-cards-title">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">Flip and listen</p>
+          <h2 id="antonym-cards-title">Antonym cards</h2>
+          <p>На лицевой стороне картинка без слов. Наведи или нажми, чтобы увидеть подписи и послушать пару.</p>
+        </div>
+        <div class="antonym-cards-grid" id="antonym-cards"></div>
+      </div>
+
+      <div class="antonym-games-zone" aria-labelledby="antonym-games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Play, pair, spell</p>
+          <h2 id="antonym-games-title">Antonym games</h2>
+          <p>Игры на узнавание картинок, выбор противоположного слова и тренировку написания английских слов.</p>
+        </div>
+
+        <div class="antonym-games-grid" id="antonym-games"></div>
+
+        <div class="antonym-writing-grid">
+          <article class="antonym-write-card" id="antonym-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке и русской подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="antonym-write-card" id="antonym-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по картинке и подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="living-room-section" id="living-room" data-lesson-panel="living-room" aria-labelledby="living-room-title">
+      <div class="section-heading">
+        <p class="eyebrow">A cozy room vocabulary quest</p>
+        <h2 id="living-room-title">Living Room Lab</h2>
+        <p>Новый урок про living room: предметы в комнате, карточки с картинками, маленькая история, игры на выбор и writing practice.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#living-games-title">Начать игру</a>
+          <a class="button button-light" href="#living-cards-title">Карточки</a>
+        </div>
+      </div>
+
+      <div class="antonym-intro-grid living-room-intro-grid">
+        <figure class="antonym-poster living-room-poster">
+          <img loading="lazy" decoding="async" src="assets/images/living-room/poster.webp" alt="Постер living room со словами sofa, vase, wall, plant, door, clock, picture, floor, curtain, window, chandelier, armchair">
+          <figcaption>12 living room words</figcaption>
+        </figure>
+
+        <div class="antonym-word-strip living-room-word-strip" aria-label="Слова living room">
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="sofa">sofa ♪</button><small>диван</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="vase">vase ♪</button><small>ваза</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="wall">wall ♪</button><small>стена</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="plant">plant ♪</button><small>растение</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="door">door ♪</button><small>дверь</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="clock">clock ♪</button><small>часы</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="picture">picture ♪</button><small>картина</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="floor">floor ♪</button><small>пол</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="curtain">curtain ♪</button><small>штора</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="window">window ♪</button><small>окно</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="chandelier">chandelier ♪</button><small>люстра</small></span>
+          <span class="living-room-word"><button type="button" class="word-sound" data-speak="armchair">armchair ♪</button><small>кресло</small></span>
+        </div>
+      </div>
+
+      <div class="antonym-card-zone living-room-card-zone" aria-labelledby="living-cards-title">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">Flip, listen, remember</p>
+          <h2 id="living-cards-title">Living room cards</h2>
+          <p>На лицевой стороне картинка без слова. Наведи или нажми, чтобы увидеть подпись и послушать произношение.</p>
+        </div>
+        <div class="antonym-cards-grid living-room-cards-grid" id="living-cards"></div>
+      </div>
+
+      <div class="antonym-story-grid living-room-story-grid" aria-labelledby="living-story-title">
+        <article class="antonym-story-card antonym-story-card-wide living-room-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/living-room/sofa.webp" alt="Розовый диван">
+          <div>
+            <span class="scene-number">01</span>
+            <h3 id="living-story-title">Уютный вечер</h3>
+            <p>Вечером в гостиной всех ждал мягкий <button type="button" class="word-sound" data-speak="sofa">sofa ♪</button>. Рядом стояло розовое <button type="button" class="word-sound" data-speak="armchair">armchair ♪</button>, а под ногами был тёплый деревянный <button type="button" class="word-sound" data-speak="floor">floor ♪</button>.</p>
+          </div>
+        </article>
+
+        <article class="antonym-story-card living-room-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/living-room/window.webp" alt="Окно">
+          <span class="scene-number">02</span>
+          <h3>Свет у окна</h3>
+          <p>Большое <button type="button" class="word-sound" data-speak="window">window ♪</button> впускало свет. Синяя <button type="button" class="word-sound" data-speak="curtain">curtain ♪</button> мягко двигалась рядом, а полосатая <button type="button" class="word-sound" data-speak="wall">wall ♪</button> делала комнату яркой.</p>
+        </article>
+
+        <article class="antonym-story-card living-room-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/living-room/plant.webp" alt="Растение в горшке">
+          <span class="scene-number">03</span>
+          <h3>Зелёный уголок</h3>
+          <p>В углу росло большое <button type="button" class="word-sound" data-speak="plant">plant ♪</button>. На столике стояла голубая <button type="button" class="word-sound" data-speak="vase">vase ♪</button>, а над ней висела красивая <button type="button" class="word-sound" data-speak="picture">picture ♪</button>.</p>
+        </article>
+
+        <article class="antonym-story-card living-room-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/living-room/clock.webp" alt="Часы на стене">
+          <span class="scene-number">04</span>
+          <h3>Пора играть</h3>
+          <p>Круглые <button type="button" class="word-sound" data-speak="clock">clock ♪</button> сказали: «Пора учить слова!» Над комнатой светила жёлтая <button type="button" class="word-sound" data-speak="chandelier">chandelier ♪</button>, а коричневая <button type="button" class="word-sound" data-speak="door">door ♪</button> ждала новых друзей.</p>
+        </article>
+      </div>
+
+      <div class="antonym-games-zone living-room-games-zone" aria-labelledby="living-games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Play, find, spell</p>
+          <h2 id="living-games-title">Living room games</h2>
+          <p>Игры на узнавание предметов, выбор слова по звуку и переводу, а затем тренировка написания.</p>
+        </div>
+
+        <div class="antonym-games-grid living-room-games-grid" id="living-games"></div>
+
+        <div class="antonym-writing-grid living-room-writing-grid">
+          <article class="antonym-write-card living-write-card" id="living-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке предмета.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="antonym-write-card living-write-card" id="living-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по картинке и подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="park-section" id="park" data-lesson-panel="park" aria-labelledby="park-title">
+      <div class="section-heading">
+        <p class="eyebrow">Outdoor words and games</p>
+        <h2 id="park-title">Park Play Lab</h2>
+        <p>Новый урок про park: дети, игры на дорожке, предметы для прогулки и маленькая история с английскими словами.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#park-games-title">Начать игру</a>
+          <a class="button button-light" href="#park-cards-title">Карточки</a>
+        </div>
+      </div>
+
+      <div class="antonym-intro-grid park-intro-grid">
+        <figure class="antonym-poster park-poster">
+          <img loading="lazy" decoding="async" src="assets/images/park/poster.webp" alt="Постер park со словами children, boy, skateboard, scooter, roller blades, girl, kite, tree, ice cream, pony, balloon, pigeon">
+          <figcaption>12 park words</figcaption>
+        </figure>
+
+        <div class="antonym-word-strip park-word-strip" aria-label="Слова park">
+          <span class="park-word"><button type="button" class="word-sound" data-speak="children">children ♪</button><small>дети</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="boy">boy ♪</button><small>мальчик</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="skateboard">skateboard ♪</button><small>скейтборд</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="scooter">scooter ♪</button><small>самокат</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="roller blades">roller blades ♪</button><small>ролики</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="girl">girl ♪</button><small>девочка</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="kite">kite ♪</button><small>воздушный змей</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="tree">tree ♪</button><small>дерево</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="ice cream">ice cream ♪</button><small>мороженое</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="pony">pony ♪</button><small>пони</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="balloon">balloon ♪</button><small>шарик</small></span>
+          <span class="park-word"><button type="button" class="word-sound" data-speak="pigeon">pigeon ♪</button><small>голубь</small></span>
+        </div>
+      </div>
+
+      <div class="antonym-card-zone park-card-zone" aria-labelledby="park-cards-title">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">Flip, listen, remember</p>
+          <h2 id="park-cards-title">Park cards</h2>
+          <p>На лицевой стороне картинка без слова. Наведи или нажми, чтобы увидеть подпись и послушать произношение.</p>
+        </div>
+        <div class="antonym-cards-grid park-cards-grid" id="park-cards"></div>
+      </div>
+
+      <div class="antonym-story-grid park-story-grid" aria-labelledby="park-story-title">
+        <article class="antonym-story-card antonym-story-card-wide park-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/park/children.webp" alt="Дети играют в парке">
+          <div>
+            <span class="scene-number">01</span>
+            <h3 id="park-story-title">Солнечная прогулка</h3>
+            <p>Утром в парк пришли весёлые <button type="button" class="word-sound" data-speak="children">children ♪</button>. Рядом улыбался <button type="button" class="word-sound" data-speak="boy">boy ♪</button>, а <button type="button" class="word-sound" data-speak="girl">girl ♪</button> махала рукой и звала всех играть.</p>
+          </div>
+        </article>
+
+        <article class="antonym-story-card park-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/park/skateboard.webp" alt="Скейтборд на дорожке">
+          <span class="scene-number">02</span>
+          <h3>На дорожке</h3>
+          <p>На ровной дорожке лежал быстрый <button type="button" class="word-sound" data-speak="skateboard">skateboard ♪</button>. Рядом стоял синий <button type="button" class="word-sound" data-speak="scooter">scooter ♪</button>, а розовые <button type="button" class="word-sound" data-speak="roller blades">roller blades ♪</button> ждали нового круга.</p>
+        </article>
+
+        <article class="antonym-story-card park-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/park/kite.webp" alt="Воздушный змей">
+          <span class="scene-number">03</span>
+          <h3>Высоко в небе</h3>
+          <p>Над большим <button type="button" class="word-sound" data-speak="tree">tree ♪</button> летел яркий <button type="button" class="word-sound" data-speak="kite">kite ♪</button>. Красный <button type="button" class="word-sound" data-speak="balloon">balloon ♪</button> тоже тянулся вверх и блестел на солнце.</p>
+        </article>
+
+        <article class="antonym-story-card park-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/park/ice-cream.webp" alt="Мороженое">
+          <span class="scene-number">04</span>
+          <h3>После игры</h3>
+          <p>После игры дети купили холодное <button type="button" class="word-sound" data-speak="ice cream">ice cream ♪</button>. На траве гулял маленький <button type="button" class="word-sound" data-speak="pony">pony ♪</button>, а серый <button type="button" class="word-sound" data-speak="pigeon">pigeon ♪</button> шагал по дорожке.</p>
+        </article>
+      </div>
+
+      <div class="antonym-games-zone park-games-zone" aria-labelledby="park-games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Play, find, spell</p>
+          <h2 id="park-games-title">Park games</h2>
+          <p>Игры на узнавание слов про парк, выбор по звуку и переводу, а затем тренировка написания.</p>
+        </div>
+
+        <div class="antonym-games-grid park-games-grid" id="park-games"></div>
+
+        <div class="antonym-writing-grid park-writing-grid">
+          <article class="antonym-write-card park-write-card" id="park-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке из парка.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="antonym-write-card park-write-card" id="park-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по картинке и подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bedroom-section" id="bedroom" data-lesson-panel="bedroom" aria-labelledby="bedroom-title">
+      <div class="section-heading">
+        <p class="eyebrow">Bedroom words and sleep-time games</p>
+        <h2 id="bedroom-title">Bedroom Dream Lab</h2>
+        <p>Новый урок про bedroom: мебель и вещи в спальне, flip-карточки, маленькая история, 5 игр и writing practice.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#bedroom-games-title">Начать игру</a>
+          <a class="button button-light" href="#bedroom-cards-title">Карточки</a>
+        </div>
+      </div>
+
+      <div class="antonym-intro-grid bedroom-intro-grid">
+        <figure class="antonym-poster bedroom-poster">
+          <img loading="lazy" decoding="async" src="assets/images/bedroom/poster.webp" alt="Постер bedroom со словами bed, desk, chair, lamp, map, carpet, duvet, slippers, bookcase, pillow, drawer, wardrobe">
+          <figcaption>12 bedroom words</figcaption>
+        </figure>
+
+        <div class="antonym-word-strip bedroom-word-strip" aria-label="Слова bedroom">
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="bed">bed ♪</button><small>кровать</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="desk">desk ♪</button><small>письменный стол</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="chair">chair ♪</button><small>стул</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="lamp">lamp ♪</button><small>лампа</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="map">map ♪</button><small>карта</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="carpet">carpet ♪</button><small>ковёр</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="duvet">duvet ♪</button><small>одеяло</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="slippers">slippers ♪</button><small>тапочки</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="bookcase">bookcase ♪</button><small>книжный шкаф</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="pillow">pillow ♪</button><small>подушка</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="drawer">drawer ♪</button><small>ящик</small></span>
+          <span class="bedroom-word"><button type="button" class="word-sound" data-speak="wardrobe">wardrobe ♪</button><small>шкаф</small></span>
+        </div>
+      </div>
+
+      <div class="antonym-card-zone bedroom-card-zone" aria-labelledby="bedroom-cards-title">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">Flip, listen, remember</p>
+          <h2 id="bedroom-cards-title">Bedroom cards</h2>
+          <p>На лицевой стороне картинка без слова. Наведи или нажми, чтобы увидеть подпись и послушать произношение.</p>
+        </div>
+        <div class="antonym-cards-grid bedroom-cards-grid" id="bedroom-cards"></div>
+      </div>
+
+      <div class="antonym-story-grid bedroom-story-grid" aria-labelledby="bedroom-story-title">
+        <article class="antonym-story-card antonym-story-card-wide bedroom-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/bedroom/bed.webp" alt="Кровать">
+          <div>
+            <span class="scene-number">01</span>
+            <h3 id="bedroom-story-title">Тихая спальня</h3>
+            <p>В уютной спальне стояла мягкая <button type="button" class="word-sound" data-speak="bed">bed ♪</button>. На ней лежали голубая <button type="button" class="word-sound" data-speak="pillow">pillow ♪</button> и тёплый белый <button type="button" class="word-sound" data-speak="duvet">duvet ♪</button>.</p>
+          </div>
+        </article>
+
+        <article class="antonym-story-card bedroom-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/bedroom/desk.webp" alt="Письменный стол">
+          <span class="scene-number">02</span>
+          <h3>Рабочий уголок</h3>
+          <p>У окна стоял коричневый <button type="button" class="word-sound" data-speak="desk">desk ♪</button>. Рядом был удобный <button type="button" class="word-sound" data-speak="chair">chair ♪</button>, а зелёная <button type="button" class="word-sound" data-speak="lamp">lamp ♪</button> светила на тетрадь.</p>
+        </article>
+
+        <article class="antonym-story-card bedroom-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/bedroom/wardrobe.webp" alt="Шкаф">
+          <span class="scene-number">03</span>
+          <h3>Порядок утром</h3>
+          <p>Высокий <button type="button" class="word-sound" data-speak="wardrobe">wardrobe ♪</button> хранил одежду, а рядом открывался <button type="button" class="word-sound" data-speak="drawer">drawer ♪</button>. Красные <button type="button" class="word-sound" data-speak="slippers">slippers ♪</button> ждали возле кровати.</p>
+        </article>
+
+        <article class="antonym-story-card bedroom-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/bedroom/bookcase.webp" alt="Книжный шкаф">
+          <span class="scene-number">04</span>
+          <h3>Перед сном</h3>
+          <p>На стене висела яркая <button type="button" class="word-sound" data-speak="map">map ♪</button>, под ногами лежал синий <button type="button" class="word-sound" data-speak="carpet">carpet ♪</button>, а высокий <button type="button" class="word-sound" data-speak="bookcase">bookcase ♪</button> выбирал сказку на ночь.</p>
+        </article>
+      </div>
+
+      <div class="antonym-games-zone bedroom-games-zone" aria-labelledby="bedroom-games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Play, find, spell</p>
+          <h2 id="bedroom-games-title">Bedroom games</h2>
+          <p>Игры на узнавание предметов спальни, выбор по звуку и переводу, а затем тренировка написания.</p>
+        </div>
+
+        <div class="antonym-games-grid bedroom-games-grid" id="bedroom-games"></div>
+
+        <div class="antonym-writing-grid bedroom-writing-grid">
+          <article class="antonym-write-card bedroom-write-card" id="bedroom-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке из спальни.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="antonym-write-card bedroom-write-card" id="bedroom-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по картинке и подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="town-section" id="town" data-lesson-panel="town" aria-labelledby="town-title">
+      <div class="section-heading">
+        <p class="eyebrow">Town words and street games</p>
+        <h2 id="town-title">Town Street Lab</h2>
+        <p>Новый урок про town: места и предметы города, flip-карточки, маленькая история, 5 игр и writing practice.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#town-games-title">Начать игру</a>
+          <a class="button button-light" href="#town-cards-title">Карточки</a>
+        </div>
+      </div>
+
+      <div class="antonym-intro-grid town-intro-grid">
+        <figure class="antonym-poster town-poster">
+          <img loading="lazy" decoding="async" src="assets/images/town/poster.webp" alt="Постер town со словами school, shop, road, hospital, bus stop, monument, cinema, traffic light, house, garage, flowerbed, crosswalk">
+          <figcaption>12 town words</figcaption>
+        </figure>
+
+        <div class="antonym-word-strip town-word-strip" aria-label="Слова town">
+          <span class="town-word"><button type="button" class="word-sound" data-speak="school">school ♪</button><small>школа</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="shop">shop ♪</button><small>магазин</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="road">road ♪</button><small>дорога</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="hospital">hospital ♪</button><small>больница</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="bus stop">bus stop ♪</button><small>автобусная остановка</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="monument">monument ♪</button><small>памятник</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="cinema">cinema ♪</button><small>кинотеатр</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="traffic light">traffic light ♪</button><small>светофор</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="house">house ♪</button><small>дом</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="garage">garage ♪</button><small>гараж</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="flowerbed">flowerbed ♪</button><small>клумба</small></span>
+          <span class="town-word"><button type="button" class="word-sound" data-speak="crosswalk">crosswalk ♪</button><small>пешеходный переход</small></span>
+        </div>
+      </div>
+
+      <div class="antonym-card-zone town-card-zone" aria-labelledby="town-cards-title">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">Flip, listen, remember</p>
+          <h2 id="town-cards-title">Town cards</h2>
+          <p>На лицевой стороне картинка без слова. Наведи или нажми, чтобы увидеть подпись и послушать произношение.</p>
+        </div>
+        <div class="antonym-cards-grid town-cards-grid" id="town-cards"></div>
+      </div>
+
+      <div class="antonym-story-grid town-story-grid" aria-labelledby="town-story-title">
+        <article class="antonym-story-card antonym-story-card-wide town-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/town/school.webp" alt="Школа">
+          <div>
+            <span class="scene-number">01</span>
+            <h3 id="town-story-title">Утро в городе</h3>
+            <p>Утром дети шли в голубую <button type="button" class="word-sound" data-speak="school">school ♪</button>. По длинной <button type="button" class="word-sound" data-speak="road">road ♪</button> ехали машины, а рядом стоял уютный <button type="button" class="word-sound" data-speak="house">house ♪</button>.</p>
+          </div>
+        </article>
+
+        <article class="antonym-story-card town-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/town/shop.webp" alt="Магазин">
+          <span class="scene-number">02</span>
+          <h3>На улице</h3>
+          <p>Розовый <button type="button" class="word-sound" data-speak="shop">shop ♪</button> открыл дверь. У синей <button type="button" class="word-sound" data-speak="bus stop">bus stop ♪</button> люди ждали автобус, а рядом мигал <button type="button" class="word-sound" data-speak="traffic light">traffic light ♪</button>.</p>
+        </article>
+
+        <article class="antonym-story-card town-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/town/cinema.webp" alt="Кинотеатр">
+          <span class="scene-number">03</span>
+          <h3>Площадь</h3>
+          <p>На площади стоял высокий <button type="button" class="word-sound" data-speak="monument">monument ♪</button>. За ним светился <button type="button" class="word-sound" data-speak="cinema">cinema ♪</button>, а белый <button type="button" class="word-sound" data-speak="hospital">hospital ♪</button> был совсем рядом.</p>
+        </article>
+
+        <article class="antonym-story-card town-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/town/crosswalk.webp" alt="Пешеходный переход">
+          <span class="scene-number">04</span>
+          <h3>Домой</h3>
+          <p>После прогулки машина заехала в <button type="button" class="word-sound" data-speak="garage">garage ♪</button>. У дороги цвела яркая <button type="button" class="word-sound" data-speak="flowerbed">flowerbed ♪</button>, а белый <button type="button" class="word-sound" data-speak="crosswalk">crosswalk ♪</button> помог всем перейти улицу.</p>
+        </article>
+      </div>
+
+      <div class="antonym-games-zone town-games-zone" aria-labelledby="town-games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Play, find, spell</p>
+          <h2 id="town-games-title">Town games</h2>
+          <p>Игры на узнавание городских слов, выбор по звуку и переводу, а затем тренировка написания.</p>
+        </div>
+
+        <div class="antonym-games-grid town-games-grid" id="town-games"></div>
+
+        <div class="antonym-writing-grid town-writing-grid">
+          <article class="antonym-write-card town-write-card" id="town-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке города.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="antonym-write-card town-write-card" id="town-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по картинке и подсказке. Для bus stop и traffic light можно писать без пробела.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="materials-section" id="materials" data-lesson-panel="materials" aria-labelledby="materials-title">
+      <div class="section-heading">
+        <p class="eyebrow">Touch, compare, name materials</p>
+        <h2 id="materials-title">Materials Maker Lab</h2>
+        <p>Новый урок про materials: из чего сделаны вещи, flip-карточки, маленькая история, 5 игр и writing practice.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#materials-games-title">Начать игру</a>
+          <a class="button button-light" href="#materials-cards-title">Карточки</a>
+        </div>
+      </div>
+
+      <div class="antonym-intro-grid materials-intro-grid">
+        <figure class="antonym-poster materials-poster">
+          <img loading="lazy" decoding="async" src="assets/images/materials/poster.webp" alt="Постер materials со словами gold, wood, plastic, paper, glass, wool, stone, steel, ceramic, rubber, cotton, leather">
+          <figcaption>12 material words</figcaption>
+        </figure>
+
+        <div class="antonym-word-strip materials-word-strip" aria-label="Слова materials">
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="gold">gold ♪</button><small>золото</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="wood">wood ♪</button><small>дерево</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="plastic">plastic ♪</button><small>пластик</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="paper">paper ♪</button><small>бумага</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="glass">glass ♪</button><small>стекло</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="wool">wool ♪</button><small>шерсть</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="stone">stone ♪</button><small>камень</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="steel">steel ♪</button><small>сталь</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="ceramic">ceramic ♪</button><small>керамика</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="rubber">rubber ♪</button><small>резина</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="cotton">cotton ♪</button><small>хлопок</small></span>
+          <span class="materials-word"><button type="button" class="word-sound" data-speak="leather">leather ♪</button><small>кожа</small></span>
+        </div>
+      </div>
+
+      <div class="antonym-card-zone materials-card-zone" aria-labelledby="materials-cards-title">
+        <div class="section-heading section-heading-light">
+          <p class="eyebrow">Flip, listen, remember</p>
+          <h2 id="materials-cards-title">Materials cards</h2>
+          <p>На лицевой стороне картинка без слова. Наведи или нажми, чтобы увидеть подпись и послушать произношение.</p>
+        </div>
+        <div class="antonym-cards-grid materials-cards-grid" id="materials-cards"></div>
+      </div>
+
+      <div class="antonym-story-grid materials-story-grid" aria-labelledby="materials-story-title">
+        <article class="antonym-story-card antonym-story-card-wide materials-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/materials/gold.webp" alt="Золотое кольцо">
+          <div>
+            <span class="scene-number">01</span>
+            <h3 id="materials-story-title">Мастерская материалов</h3>
+            <p>В мастерской блестело <button type="button" class="word-sound" data-speak="gold">gold ♪</button>. На столе лежала доска из <button type="button" class="word-sound" data-speak="wood">wood ♪</button>, а рядом стоял прозрачный стакан из <button type="button" class="word-sound" data-speak="glass">glass ♪</button>.</p>
+          </div>
+        </article>
+
+        <article class="antonym-story-card materials-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/materials/paper.webp" alt="Бумажный самолётик">
+          <span class="scene-number">02</span>
+          <h3>Лёгкие вещи</h3>
+          <p>Белый самолётик был из <button type="button" class="word-sound" data-speak="paper">paper ♪</button>. Фиолетовое ведёрко было из <button type="button" class="word-sound" data-speak="plastic">plastic ♪</button>, а мягкая футболка была из <button type="button" class="word-sound" data-speak="cotton">cotton ♪</button>.</p>
+        </article>
+
+        <article class="antonym-story-card materials-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/materials/wool.webp" alt="Варежки из шерсти">
+          <span class="scene-number">03</span>
+          <h3>Тёплая полка</h3>
+          <p>Синие варежки были из <button type="button" class="word-sound" data-speak="wool">wool ♪</button>. Коричневые ботинки были из <button type="button" class="word-sound" data-speak="leather">leather ♪</button>, и они стояли рядом с вазой из <button type="button" class="word-sound" data-speak="ceramic">ceramic ♪</button>.</p>
+        </article>
+
+        <article class="antonym-story-card materials-story-card">
+          <img loading="lazy" decoding="async" src="assets/images/materials/steel.webp" alt="Нож из стали">
+          <span class="scene-number">04</span>
+          <h3>Крепкие материалы</h3>
+          <p>Острый нож был из <button type="button" class="word-sound" data-speak="steel">steel ♪</button>. Голубой камень был <button type="button" class="word-sound" data-speak="stone">stone ♪</button>, а чёрная шина была из <button type="button" class="word-sound" data-speak="rubber">rubber ♪</button>.</p>
+        </article>
+      </div>
+
+      <div class="antonym-games-zone materials-games-zone" aria-labelledby="materials-games-title">
+        <div class="section-heading">
+          <p class="eyebrow">Play, find, spell</p>
+          <h2 id="materials-games-title">Materials games</h2>
+          <p>Игры на узнавание материалов, выбор по звуку и переводу, а затем тренировка написания.</p>
+        </div>
+
+        <div class="antonym-games-grid materials-games-grid" id="materials-games"></div>
+
+        <div class="antonym-writing-grid materials-writing-grid">
+          <article class="antonym-write-card materials-write-card" id="materials-build-game">
+            <div class="mini-game-intro">
+              <span>Письмо 01</span>
+              <h3>Build the word</h3>
+              <p>Собери слово из букв по картинке материала.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <div class="letter-slots" data-slots aria-label="Собранное слово"></div>
+              <div class="letter-bank" data-bank></div>
+              <p class="feedback" data-feedback aria-live="polite">Выбери буквы по порядку.</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-undo>Назад</button>
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-light" type="button" data-clear>Очистить</button>
+                <button class="button button-dark" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="antonym-write-card materials-write-card" id="materials-type-game">
+            <div class="mini-game-intro">
+              <span>Письмо 02</span>
+              <h3>Type the word</h3>
+              <p>Напечатай английское слово по картинке и подсказке.</p>
+              <div class="task-heart-progress" aria-label="Сердечки в задании">
+                <span class="task-heart-counter"><span aria-hidden="true">♥</span><strong><b data-task-hearts>0</b>/<b data-task-goal>5</b></strong></span>
+                <small>Осталось: <b data-task-left>5</b></small>
+              </div>
+            </div>
+            <div class="mini-game-body">
+              <div class="write-target" data-target></div>
+              <label class="type-answer">
+                <span>Английское слово</span>
+                <input type="text" data-input autocomplete="off" autocapitalize="none" spellcheck="false">
+              </label>
+              <p class="feedback" data-feedback aria-live="polite">Введи слово и нажми «Проверить».</p>
+              <div class="write-actions">
+                <button class="button button-light" type="button" data-hint>Подсказка</button>
+                <button class="button button-dark" type="button" data-check>Проверить</button>
+                <button class="button button-light" type="button" data-next>Новое слово</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Shapes: rectangle, triangle, square, circle, oval, star, dot, cross, heart, hexagon, octagon, rhombus. Antonyms: big/small, long/short, tall/low, soft/hard, open/closed, light/dark. Living room: sofa, vase, wall, plant, door, clock, picture, floor, curtain, window, chandelier, armchair. Park: children, boy, skateboard, scooter, roller blades, girl, kite, tree, ice cream, pony, balloon, pigeon. Bedroom: bed, desk, chair, lamp, map, carpet, duvet, slippers, bookcase, pillow, drawer, wardrobe. Town: school, shop, road, hospital, bus stop, monument, cinema, traffic light, house, garage, flowerbed, crosswalk. Materials: gold, wood, plastic, paper, glass, wool, stone, steel, ceramic, rubber, cotton, leather.</p>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
